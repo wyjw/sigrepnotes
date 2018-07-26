@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+
+\title{SIG Rep Learning Notes}
+\author{StatNLP}
+\date{July 4 2018}
+
+\begin{document}
+\maketitle
+
+\section{Paper}
+Xin, Xin, et al. "Batch IS NOT Heavy: LearningWord Representations From All Samples. \\ \url{www.comp.nus.edu.sg/~xiangnan/papers/acl18-word-embedding.pdf}\\
+
+\section{Summary of Paper}
+- Positive and negative samples treated differently. \\
+- Precomputation of certain quantities to save time \\
+- Reference of Levy-Goldberg - word embedding is treated as matrix decomposition (does the derivation hold in this case? Do the assumptions hold?) \\
+- Word evaluation as a evaluation criteria \\
+
+\section{Possible Extensions}
+- Sentiment analysis papers for next week. \url{https://arxiv.org/abs/1805.04576} \url{https://arxiv.org/abs/1805.03801}\\
+- For Friday, understand how the skip-gram objective relates to that of $P(w|c)$ and how negative sampling relates to these objectives. In particular where does the probability distribution enter the method. \\
+- Increase word2vec negative samples to 1000+, why does performance plateau \\
+- Could we weight the draw of negative samples differently? (Importance sampling, etc.)
+\end{document}
