@@ -1,6 +1,6 @@
 ## SIG Rep Learning Notes
-# StatNLP
-# July 25 2018
+StatNLP
+July 25 2018
 
 ## Paper
 ELMo paper "Deep Contextualized word representations" \url{https://arxiv.org/abs/1802.05365} 
